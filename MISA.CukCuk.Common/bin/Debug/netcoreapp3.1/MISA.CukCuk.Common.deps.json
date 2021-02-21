@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "MISA.CukCuk.Common/1.0.0": {
+        "runtime": {
+          "MISA.CukCuk.Common.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MISA.CukCuk.Common/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,94 @@
+﻿using Microsoft.AspNetCore.Mvc;
+using MISA.CukCuk.Common.Models;
+using MISA.CukCuk.Service.Interfaces;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+
+// For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+
+namespace MISA.CukCuk.API.Controllers
+{
+    [Produces("application/json")]
+    [Route("api/v1/[controller]")]
+    [ApiController]
+    public class EmployeesController : ControllerBase
+    {
+        private readonly IEmployeeService _employeeService;
+
+        public EmployeesController(IEmployeeService employeeService)
+        {
+            _employeeService = employeeService;
+        }
+
+        // GET: api/v1/<EmployeesController>
+        /// <summary>
+        /// Lấy tất cả thông tin của nhân viên
+        /// </summary>
+        /// <returns></returns>
+        [HttpGet]
+        public IActionResult Get()
+        {
+            var res = _employeeService.GetAll();
+
+            return StatusCode(200, res.Data);
+        }
+
+        // GET api/<EmployeesController>/5
+        [HttpGet("{employeeID}")]
+        public IActionResult Get([FromRoute] Guid employeeID)
+        {
+            var res = _employeeService.GetById(employeeID);
+
+            return StatusCode(200, res.Data);
+        }
+
+        // POST api/<EmployeesController>
+        [HttpPost]
+        public IActionResult Post([FromBody] Employee employee)
+        {
+            var res = _employeeService.CreateEntity(employee);
+
+            if (res.Success)
+            {
+                return StatusCode(201, res.Data);
+            }
+            else
+            {
+                return StatusCode(400, res.Data);
+            }
+        }
+
+        // PUT api/<EmployeesController>/5
+        [HttpPut("{employeeID}")]
+        public IActionResult Put([FromRoute] Guid employeeID, [FromBody] Employee employee)
+        {
+            var res = _employeeService.EditEntity(employeeID, employee);
+
+            if (res.Success)
+            {
+                return StatusCode(200, res.Data);
+            }
+            else
+            {
+                return StatusCode(400, res.Data);
+            }
+        }
+
+        // DELETE api/<EmployeesController>/5
+        [HttpDelete("{employeeID}")]
+        public IActionResult Delete([FromRoute]Guid employeeID)
+        {
+            var res = _employeeService.DeleteEntity(employeeID);
+            if (res.Success)
+            {
+                return StatusCode(200, res.Data);
+            }
+            else
+            {
+                return StatusCode(400, res.Data);
+            }
+        }
+    }
+}
