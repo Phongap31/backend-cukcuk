@@ -1003,19 +1003,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Mr.Vincent\\.nuget\\packages\\": {}
+    "C:\\Users\\lhphong\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Mr.Vincent\\source\\repos\\MISA.CucCuk\\MISA.CukCuk.DataLayer\\MISA.CukCuk.DataLayer.csproj",
+      "projectUniqueName": "C:\\Users\\lhphong\\Desktop\\WebCukCuk\\back-end\\MISA.CukCuk\\backend-cukcuk\\MISA.CukCuk.DataLayer\\MISA.CukCuk.DataLayer.csproj",
       "projectName": "MISA.CukCuk.DataLayer",
-      "projectPath": "C:\\Users\\Mr.Vincent\\source\\repos\\MISA.CucCuk\\MISA.CukCuk.DataLayer\\MISA.CukCuk.DataLayer.csproj",
-      "packagesPath": "C:\\Users\\Mr.Vincent\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Mr.Vincent\\source\\repos\\MISA.CucCuk\\MISA.CukCuk.DataLayer\\obj\\",
+      "projectPath": "C:\\Users\\lhphong\\Desktop\\WebCukCuk\\back-end\\MISA.CukCuk\\backend-cukcuk\\MISA.CukCuk.DataLayer\\MISA.CukCuk.DataLayer.csproj",
+      "packagesPath": "C:\\Users\\lhphong\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\lhphong\\Desktop\\WebCukCuk\\back-end\\MISA.CukCuk\\backend-cukcuk\\MISA.CukCuk.DataLayer\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Mr.Vincent\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\lhphong\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1029,8 +1029,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\Mr.Vincent\\source\\repos\\MISA.CucCuk\\MISA.CukCuk.Common\\MISA.CukCuk.Common.csproj": {
-              "projectPath": "C:\\Users\\Mr.Vincent\\source\\repos\\MISA.CucCuk\\MISA.CukCuk.Common\\MISA.CukCuk.Common.csproj"
+            "C:\\Users\\lhphong\\Desktop\\WebCukCuk\\back-end\\MISA.CukCuk\\backend-cukcuk\\MISA.CukCuk.Common\\MISA.CukCuk.Common.csproj": {
+              "projectPath": "C:\\Users\\lhphong\\Desktop\\WebCukCuk\\back-end\\MISA.CukCuk\\backend-cukcuk\\MISA.CukCuk.Common\\MISA.CukCuk.Common.csproj"
             }
           }
         }

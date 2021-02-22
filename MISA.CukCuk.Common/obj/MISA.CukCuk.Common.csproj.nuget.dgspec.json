@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Mr.Vincent\\source\\repos\\MISA.CucCuk\\MISA.CukCuk.Common\\MISA.CukCuk.Common.csproj": {}
+    "C:\\Users\\lhphong\\Desktop\\WebCukCuk\\back-end\\MISA.CukCuk\\backend-cukcuk\\MISA.CukCuk.Common\\MISA.CukCuk.Common.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Mr.Vincent\\source\\repos\\MISA.CucCuk\\MISA.CukCuk.Common\\MISA.CukCuk.Common.csproj": {
+    "C:\\Users\\lhphong\\Desktop\\WebCukCuk\\back-end\\MISA.CukCuk\\backend-cukcuk\\MISA.CukCuk.Common\\MISA.CukCuk.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mr.Vincent\\source\\repos\\MISA.CucCuk\\MISA.CukCuk.Common\\MISA.CukCuk.Common.csproj",
+        "projectUniqueName": "C:\\Users\\lhphong\\Desktop\\WebCukCuk\\back-end\\MISA.CukCuk\\backend-cukcuk\\MISA.CukCuk.Common\\MISA.CukCuk.Common.csproj",
         "projectName": "MISA.CukCuk.Common",
-        "projectPath": "C:\\Users\\Mr.Vincent\\source\\repos\\MISA.CucCuk\\MISA.CukCuk.Common\\MISA.CukCuk.Common.csproj",
-        "packagesPath": "C:\\Users\\Mr.Vincent\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mr.Vincent\\source\\repos\\MISA.CucCuk\\MISA.CukCuk.Common\\obj\\",
+        "projectPath": "C:\\Users\\lhphong\\Desktop\\WebCukCuk\\back-end\\MISA.CukCuk\\backend-cukcuk\\MISA.CukCuk.Common\\MISA.CukCuk.Common.csproj",
+        "packagesPath": "C:\\Users\\lhphong\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\lhphong\\Desktop\\WebCukCuk\\back-end\\MISA.CukCuk\\backend-cukcuk\\MISA.CukCuk.Common\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Mr.Vincent\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\lhphong\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

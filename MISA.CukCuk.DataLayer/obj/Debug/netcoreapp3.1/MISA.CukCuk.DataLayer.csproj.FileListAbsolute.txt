@@ -10,3 +10,15 @@ C:\Users\Mr.Vincent\source\repos\MISA.CucCuk\MISA.CukCuk.DataLayer\obj\Debug\net
 C:\Users\Mr.Vincent\source\repos\MISA.CucCuk\MISA.CukCuk.DataLayer\obj\Debug\netcoreapp3.1\MISA.CukCuk.DataLayer.csproj.CopyComplete
 C:\Users\Mr.Vincent\source\repos\MISA.CucCuk\MISA.CukCuk.DataLayer\obj\Debug\netcoreapp3.1\MISA.CukCuk.DataLayer.dll
 C:\Users\Mr.Vincent\source\repos\MISA.CucCuk\MISA.CukCuk.DataLayer\obj\Debug\netcoreapp3.1\MISA.CukCuk.DataLayer.pdb
+C:\Users\lhphong\Desktop\WebCukCuk\back-end\MISA.CukCuk\backend-cukcuk\MISA.CukCuk.DataLayer\bin\Debug\netcoreapp3.1\MISA.CukCuk.DataLayer.deps.json
+C:\Users\lhphong\Desktop\WebCukCuk\back-end\MISA.CukCuk\backend-cukcuk\MISA.CukCuk.DataLayer\bin\Debug\netcoreapp3.1\MISA.CukCuk.DataLayer.dll
+C:\Users\lhphong\Desktop\WebCukCuk\back-end\MISA.CukCuk\backend-cukcuk\MISA.CukCuk.DataLayer\bin\Debug\netcoreapp3.1\MISA.CukCuk.DataLayer.pdb
+C:\Users\lhphong\Desktop\WebCukCuk\back-end\MISA.CukCuk\backend-cukcuk\MISA.CukCuk.DataLayer\bin\Debug\netcoreapp3.1\MISA.CukCuk.Common.dll
+C:\Users\lhphong\Desktop\WebCukCuk\back-end\MISA.CukCuk\backend-cukcuk\MISA.CukCuk.DataLayer\bin\Debug\netcoreapp3.1\MISA.CukCuk.Common.pdb
+C:\Users\lhphong\Desktop\WebCukCuk\back-end\MISA.CukCuk\backend-cukcuk\MISA.CukCuk.DataLayer\obj\Debug\netcoreapp3.1\MISA.CukCuk.DataLayer.csprojAssemblyReference.cache
+C:\Users\lhphong\Desktop\WebCukCuk\back-end\MISA.CukCuk\backend-cukcuk\MISA.CukCuk.DataLayer\obj\Debug\netcoreapp3.1\MISA.CukCuk.DataLayer.AssemblyInfoInputs.cache
+C:\Users\lhphong\Desktop\WebCukCuk\back-end\MISA.CukCuk\backend-cukcuk\MISA.CukCuk.DataLayer\obj\Debug\netcoreapp3.1\MISA.CukCuk.DataLayer.AssemblyInfo.cs
+C:\Users\lhphong\Desktop\WebCukCuk\back-end\MISA.CukCuk\backend-cukcuk\MISA.CukCuk.DataLayer\obj\Debug\netcoreapp3.1\MISA.CukCuk.DataLayer.csproj.CoreCompileInputs.cache
+C:\Users\lhphong\Desktop\WebCukCuk\back-end\MISA.CukCuk\backend-cukcuk\MISA.CukCuk.DataLayer\obj\Debug\netcoreapp3.1\MISA.CukCuk.DataLayer.csproj.CopyComplete
+C:\Users\lhphong\Desktop\WebCukCuk\back-end\MISA.CukCuk\backend-cukcuk\MISA.CukCuk.DataLayer\obj\Debug\netcoreapp3.1\MISA.CukCuk.DataLayer.dll
+C:\Users\lhphong\Desktop\WebCukCuk\back-end\MISA.CukCuk\backend-cukcuk\MISA.CukCuk.DataLayer\obj\Debug\netcoreapp3.1\MISA.CukCuk.DataLayer.pdb

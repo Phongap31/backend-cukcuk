@@ -27,12 +27,23 @@ namespace MISA.CukCuk.Service.Entities
             //Check trùng mã nhân viên
             if (employeeExistsCode != null && employeeExistsCode.Any())
             {
-                errorMsg.UserMsg = "Có lỗi xảy ra, vui lòng liên hệ Misa giải quyết";
+                errorMsg.UserMsg = "Mã nhân viên không được trùng, vui lòng liên hệ Misa giải quyết";
                 serviceResult.Success = false;
                 serviceResult.Data = errorMsg;
                 return serviceResult;
             }
 
+            var identityExitsCode = _baseDL.GetByFieldName("IdentityCode", employee.IdentityCode);
+            //Check trùng số CMND
+            if (identityExitsCode != null && identityExitsCode.Any())
+            {
+                errorMsg.UserMsg = "Số CMND không được trùng, vui lòng liên hệ Misa giải quyết";
+                serviceResult.Success = false;
+                serviceResult.Data = errorMsg;
+                return serviceResult;
+            }
+
+            //tạo mới ID cho nhân viên
             employee.EmployeeID = Guid.NewGuid();
 
             return base.CreateEntity(employee);

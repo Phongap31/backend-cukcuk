@@ -8,7 +8,39 @@
             <summary>
             Lấy tất cả thông tin của nhân viên
             </summary>
-            <returns></returns>
+            <returns>Danh sách nhân viên</returns>
+            created by: lhphong 21.02.2021
+        </member>
+        <member name="M:MISA.CukCuk.API.Controllers.EmployeesController.Get(System.Guid)">
+            <summary>
+            Lấy thông tin của nhân viên theo ID
+            </summary>
+            <returns>Nhân viên theo ID</returns>
+            created by: lhphong 21.02.2021
+        </member>
+        <member name="M:MISA.CukCuk.API.Controllers.EmployeesController.Post(MISA.CukCuk.Common.Models.Employee)">
+            <summary>
+            Thêm mới nhân viên
+            </summary>
+            <param name="employee">nhân viên cần thêm mới</param>
+            <returns>response tương ứng</returns>
+        </member>
+        <member name="M:MISA.CukCuk.API.Controllers.EmployeesController.Put(System.Guid,MISA.CukCuk.Common.Models.Employee)">
+            <summary>
+            Sửa thông tin nhân viên theo ID
+            </summary>
+            <param name="employeeID">ID nhân viên</param>
+            <param name="employee">Nhân viên cần sửa</param>
+            <returns>200 - thành công, 400 - không thành công</returns>
+            created by lhphong 21.20.2021
+        </member>
+        <member name="M:MISA.CukCuk.API.Controllers.EmployeesController.Delete(System.Guid)">
+            <summary>
+            Xóa nhân viên theo ID
+            </summary>
+            <param name="employeeID">ID nhân viên</param>
+            <returns>200 - thành công, 400 - không thành công</returns>
+            created by lhphong 21.02.2021
         </member>
     </members>
 </doc>

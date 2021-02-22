@@ -1229,19 +1229,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Mr.Vincent\\.nuget\\packages\\": {}
+    "C:\\Users\\lhphong\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Mr.Vincent\\source\\repos\\MISA.CucCuk\\MISA.CucCuk.API\\MISA.CukCuk.API.csproj",
+      "projectUniqueName": "C:\\Users\\lhphong\\Desktop\\WebCukCuk\\back-end\\MISA.CukCuk\\backend-cukcuk\\MISA.CucCuk.API\\MISA.CukCuk.API.csproj",
       "projectName": "MISA.CukCuk.API",
-      "projectPath": "C:\\Users\\Mr.Vincent\\source\\repos\\MISA.CucCuk\\MISA.CucCuk.API\\MISA.CukCuk.API.csproj",
-      "packagesPath": "C:\\Users\\Mr.Vincent\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Mr.Vincent\\source\\repos\\MISA.CucCuk\\MISA.CucCuk.API\\obj\\",
+      "projectPath": "C:\\Users\\lhphong\\Desktop\\WebCukCuk\\back-end\\MISA.CukCuk\\backend-cukcuk\\MISA.CucCuk.API\\MISA.CukCuk.API.csproj",
+      "packagesPath": "C:\\Users\\lhphong\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\lhphong\\Desktop\\WebCukCuk\\back-end\\MISA.CukCuk\\backend-cukcuk\\MISA.CucCuk.API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Mr.Vincent\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\lhphong\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1255,11 +1255,11 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\Mr.Vincent\\source\\repos\\MISA.CucCuk\\MISA.CukCuk.Common\\MISA.CukCuk.Common.csproj": {
-              "projectPath": "C:\\Users\\Mr.Vincent\\source\\repos\\MISA.CucCuk\\MISA.CukCuk.Common\\MISA.CukCuk.Common.csproj"
+            "C:\\Users\\lhphong\\Desktop\\WebCukCuk\\back-end\\MISA.CukCuk\\backend-cukcuk\\MISA.CukCuk.Common\\MISA.CukCuk.Common.csproj": {
+              "projectPath": "C:\\Users\\lhphong\\Desktop\\WebCukCuk\\back-end\\MISA.CukCuk\\backend-cukcuk\\MISA.CukCuk.Common\\MISA.CukCuk.Common.csproj"
             },
-            "C:\\Users\\Mr.Vincent\\source\\repos\\MISA.CucCuk\\MISA.CukCuk.Service\\MISA.CukCuk.Service.csproj": {
-              "projectPath": "C:\\Users\\Mr.Vincent\\source\\repos\\MISA.CucCuk\\MISA.CukCuk.Service\\MISA.CukCuk.Service.csproj"
+            "C:\\Users\\lhphong\\Desktop\\WebCukCuk\\back-end\\MISA.CukCuk\\backend-cukcuk\\MISA.CukCuk.Service\\MISA.CukCuk.Service.csproj": {
+              "projectPath": "C:\\Users\\lhphong\\Desktop\\WebCukCuk\\back-end\\MISA.CukCuk\\backend-cukcuk\\MISA.CukCuk.Service\\MISA.CukCuk.Service.csproj"
             }
           }
         }

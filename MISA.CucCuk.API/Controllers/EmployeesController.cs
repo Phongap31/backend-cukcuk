@@ -26,7 +26,8 @@ namespace MISA.CukCuk.API.Controllers
         /// <summary>
         /// Lấy tất cả thông tin của nhân viên
         /// </summary>
-        /// <returns></returns>
+        /// <returns>Danh sách nhân viên</returns>
+        /// created by: lhphong 21.02.2021
         [HttpGet]
         public IActionResult Get()
         {
@@ -36,6 +37,11 @@ namespace MISA.CukCuk.API.Controllers
         }
 
         // GET api/<EmployeesController>/5
+        /// <summary>
+        /// Lấy thông tin của nhân viên theo ID
+        /// </summary>
+        /// <returns>Nhân viên theo ID</returns>
+        /// created by: lhphong 21.02.2021
         [HttpGet("{employeeID}")]
         public IActionResult Get([FromRoute] Guid employeeID)
         {
@@ -45,6 +51,11 @@ namespace MISA.CukCuk.API.Controllers
         }
 
         // POST api/<EmployeesController>
+        /// <summary>
+        /// Thêm mới nhân viên
+        /// </summary>
+        /// <param name="employee">nhân viên cần thêm mới</param>
+        /// <returns>response tương ứng</returns>
         [HttpPost]
         public IActionResult Post([FromBody] Employee employee)
         {
@@ -61,6 +72,13 @@ namespace MISA.CukCuk.API.Controllers
         }
 
         // PUT api/<EmployeesController>/5
+        /// <summary>
+        /// Sửa thông tin nhân viên theo ID
+        /// </summary>
+        /// <param name="employeeID">ID nhân viên</param>
+        /// <param name="employee">Nhân viên cần sửa</param>
+        /// <returns>200 - thành công, 400 - không thành công</returns>
+        /// created by lhphong 21.20.2021
         [HttpPut("{employeeID}")]
         public IActionResult Put([FromRoute] Guid employeeID, [FromBody] Employee employee)
         {
@@ -77,6 +95,12 @@ namespace MISA.CukCuk.API.Controllers
         }
 
         // DELETE api/<EmployeesController>/5
+        /// <summary>
+        /// Xóa nhân viên theo ID
+        /// </summary>
+        /// <param name="employeeID">ID nhân viên</param>
+        /// <returns>200 - thành công, 400 - không thành công</returns>
+        /// created by lhphong 21.02.2021
         [HttpDelete("{employeeID}")]
         public IActionResult Delete([FromRoute]Guid employeeID)
         {

@@ -7,3 +7,12 @@ C:\Users\Mr.Vincent\source\repos\MISA.CucCuk\MISA.CukCuk.Common\obj\Debug\netcor
 C:\Users\Mr.Vincent\source\repos\MISA.CucCuk\MISA.CukCuk.Common\obj\Debug\netcoreapp3.1\MISA.CukCuk.Common.csproj.CoreCompileInputs.cache
 C:\Users\Mr.Vincent\source\repos\MISA.CucCuk\MISA.CukCuk.Common\obj\Debug\netcoreapp3.1\MISA.CukCuk.Common.dll
 C:\Users\Mr.Vincent\source\repos\MISA.CucCuk\MISA.CukCuk.Common\obj\Debug\netcoreapp3.1\MISA.CukCuk.Common.pdb
+C:\Users\lhphong\Desktop\WebCukCuk\back-end\MISA.CukCuk\backend-cukcuk\MISA.CukCuk.Common\bin\Debug\netcoreapp3.1\MISA.CukCuk.Common.deps.json
+C:\Users\lhphong\Desktop\WebCukCuk\back-end\MISA.CukCuk\backend-cukcuk\MISA.CukCuk.Common\bin\Debug\netcoreapp3.1\MISA.CukCuk.Common.dll
+C:\Users\lhphong\Desktop\WebCukCuk\back-end\MISA.CukCuk\backend-cukcuk\MISA.CukCuk.Common\bin\Debug\netcoreapp3.1\MISA.CukCuk.Common.pdb
+C:\Users\lhphong\Desktop\WebCukCuk\back-end\MISA.CukCuk\backend-cukcuk\MISA.CukCuk.Common\obj\Debug\netcoreapp3.1\MISA.CukCuk.Common.csprojAssemblyReference.cache
+C:\Users\lhphong\Desktop\WebCukCuk\back-end\MISA.CukCuk\backend-cukcuk\MISA.CukCuk.Common\obj\Debug\netcoreapp3.1\MISA.CukCuk.Common.AssemblyInfoInputs.cache
+C:\Users\lhphong\Desktop\WebCukCuk\back-end\MISA.CukCuk\backend-cukcuk\MISA.CukCuk.Common\obj\Debug\netcoreapp3.1\MISA.CukCuk.Common.AssemblyInfo.cs
+C:\Users\lhphong\Desktop\WebCukCuk\back-end\MISA.CukCuk\backend-cukcuk\MISA.CukCuk.Common\obj\Debug\netcoreapp3.1\MISA.CukCuk.Common.csproj.CoreCompileInputs.cache
+C:\Users\lhphong\Desktop\WebCukCuk\back-end\MISA.CukCuk\backend-cukcuk\MISA.CukCuk.Common\obj\Debug\netcoreapp3.1\MISA.CukCuk.Common.dll
+C:\Users\lhphong\Desktop\WebCukCuk\back-end\MISA.CukCuk\backend-cukcuk\MISA.CukCuk.Common\obj\Debug\netcoreapp3.1\MISA.CukCuk.Common.pdb

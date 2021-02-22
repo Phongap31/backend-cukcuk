@@ -12,3 +12,17 @@ C:\Users\Mr.Vincent\source\repos\MISA.CucCuk\MISA.CukCuk.Service\obj\Debug\netco
 C:\Users\Mr.Vincent\source\repos\MISA.CucCuk\MISA.CukCuk.Service\obj\Debug\netcoreapp3.1\MISA.CukCuk.Service.csproj.CopyComplete
 C:\Users\Mr.Vincent\source\repos\MISA.CucCuk\MISA.CukCuk.Service\obj\Debug\netcoreapp3.1\MISA.CukCuk.Service.dll
 C:\Users\Mr.Vincent\source\repos\MISA.CucCuk\MISA.CukCuk.Service\obj\Debug\netcoreapp3.1\MISA.CukCuk.Service.pdb
+C:\Users\lhphong\Desktop\WebCukCuk\back-end\MISA.CukCuk\backend-cukcuk\MISA.CukCuk.Service\bin\Debug\netcoreapp3.1\MISA.CukCuk.Service.deps.json
+C:\Users\lhphong\Desktop\WebCukCuk\back-end\MISA.CukCuk\backend-cukcuk\MISA.CukCuk.Service\bin\Debug\netcoreapp3.1\MISA.CukCuk.Service.dll
+C:\Users\lhphong\Desktop\WebCukCuk\back-end\MISA.CukCuk\backend-cukcuk\MISA.CukCuk.Service\bin\Debug\netcoreapp3.1\MISA.CukCuk.Service.pdb
+C:\Users\lhphong\Desktop\WebCukCuk\back-end\MISA.CukCuk\backend-cukcuk\MISA.CukCuk.Service\bin\Debug\netcoreapp3.1\MISA.CukCuk.Common.dll
+C:\Users\lhphong\Desktop\WebCukCuk\back-end\MISA.CukCuk\backend-cukcuk\MISA.CukCuk.Service\bin\Debug\netcoreapp3.1\MISA.CukCuk.DataLayer.dll
+C:\Users\lhphong\Desktop\WebCukCuk\back-end\MISA.CukCuk\backend-cukcuk\MISA.CukCuk.Service\bin\Debug\netcoreapp3.1\MISA.CukCuk.Common.pdb
+C:\Users\lhphong\Desktop\WebCukCuk\back-end\MISA.CukCuk\backend-cukcuk\MISA.CukCuk.Service\bin\Debug\netcoreapp3.1\MISA.CukCuk.DataLayer.pdb
+C:\Users\lhphong\Desktop\WebCukCuk\back-end\MISA.CukCuk\backend-cukcuk\MISA.CukCuk.Service\obj\Debug\netcoreapp3.1\MISA.CukCuk.Service.csprojAssemblyReference.cache
+C:\Users\lhphong\Desktop\WebCukCuk\back-end\MISA.CukCuk\backend-cukcuk\MISA.CukCuk.Service\obj\Debug\netcoreapp3.1\MISA.CukCuk.Service.AssemblyInfoInputs.cache
+C:\Users\lhphong\Desktop\WebCukCuk\back-end\MISA.CukCuk\backend-cukcuk\MISA.CukCuk.Service\obj\Debug\netcoreapp3.1\MISA.CukCuk.Service.AssemblyInfo.cs
+C:\Users\lhphong\Desktop\WebCukCuk\back-end\MISA.CukCuk\backend-cukcuk\MISA.CukCuk.Service\obj\Debug\netcoreapp3.1\MISA.CukCuk.Service.csproj.CoreCompileInputs.cache
+C:\Users\lhphong\Desktop\WebCukCuk\back-end\MISA.CukCuk\backend-cukcuk\MISA.CukCuk.Service\obj\Debug\netcoreapp3.1\MISA.CukCuk.Service.csproj.CopyComplete
+C:\Users\lhphong\Desktop\WebCukCuk\back-end\MISA.CukCuk\backend-cukcuk\MISA.CukCuk.Service\obj\Debug\netcoreapp3.1\MISA.CukCuk.Service.dll
+C:\Users\lhphong\Desktop\WebCukCuk\back-end\MISA.CukCuk\backend-cukcuk\MISA.CukCuk.Service\obj\Debug\netcoreapp3.1\MISA.CukCuk.Service.pdb
