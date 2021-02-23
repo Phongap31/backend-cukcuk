@@ -31,6 +31,7 @@ namespace MISA.CukCuk.API.Controllers
         [HttpGet]
         public IActionResult Get()
         {
+
             var res = _employeeService.GetAll();
 
             return StatusCode(200, res.Data);

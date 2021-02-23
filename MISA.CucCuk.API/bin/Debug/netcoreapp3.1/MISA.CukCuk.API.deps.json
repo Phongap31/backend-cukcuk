@@ -26,6 +26,7 @@
         "dependencies": {
           "MISA.CukCuk.Common": "1.0.0",
           "MISA.CukCuk.Service": "1.0.0",
+          "Newtonsoft.Json": "12.0.3",
           "Swashbuckle.AspNetCore": "6.0.7",
           "Microsoft.AspNetCore.Antiforgery": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions": "3.1.0.0",
@@ -448,6 +449,17 @@
           "lib/netstandard2.1/MySql.Data.dll": {},
           "lib/netstandard2.1/Ubiety.Dns.Core.dll": {},
           "lib/netstandard2.1/Zstandard.Net.dll": {}
+        }
+      },
+      "Newtonsoft.Json/12.0.3": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "12.0.0.0",
+            "fileVersion": "12.0.3.23909"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
         }
       },
       "SSH.NET/2020.0.0-beta1": {
@@ -2393,6 +2405,13 @@
       "sha512": "sha512-5UPKd+OX5aSR8fTTfWzAifYg8YKOWMVX39bkdGbI3/SB3khdE13DZVMrk6CzjXvo2BjXic9emf2lwgvJTVWnyg==",
       "path": "mysql.data/8.0.23",
       "hashPath": "mysql.data.8.0.23.nupkg.sha512"
+    },
+    "Newtonsoft.Json/12.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6mgjfnRB4jKMlzHSl+VD+oUc1IebOZabkbyWj2RiTgWwYPPuaK1H97G1sHqGwPlS5npiF5Q0OrxN1wni2n5QWg==",
+      "path": "newtonsoft.json/12.0.3",
+      "hashPath": "newtonsoft.json.12.0.3.nupkg.sha512"
     },
     "SSH.NET/2020.0.0-beta1": {
       "type": "package",

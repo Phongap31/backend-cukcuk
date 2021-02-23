@@ -1,9 +1,12 @@
-using Microsoft.AspNetCore.Builder;
+﻿using Microsoft.AspNetCore.Builder;
+using Microsoft.AspNetCore.Diagnostics;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
+using MISA.CukCuk.Common.Enums;
 using MISA.CukCuk.DataLayer.Base;
 using MISA.CukCuk.DataLayer.DbContext;
 using MISA.CukCuk.DataLayer.Entities;
@@ -11,6 +14,7 @@ using MISA.CukCuk.DataLayer.Interfaces;
 using MISA.CukCuk.Service.Base;
 using MISA.CukCuk.Service.Entities;
 using MISA.CukCuk.Service.Interfaces;
+using Newtonsoft.Json;
 using System;
 using System.IO;
 using System.Reflection;
@@ -66,6 +70,7 @@ namespace MISA.CucCuk.API
                 c.IncludeXmlComments(xmlPath);
             });
 
+            //DI
             services.AddScoped(typeof(IDbContext<>), typeof(DapperDbContext<>));
             services.AddScoped(typeof(IBaseDL<>), typeof(BaseDL<>));
             services.AddScoped(typeof(IBaseService<>), typeof(BaseService<>));
@@ -83,6 +88,11 @@ namespace MISA.CucCuk.API
             {
                 app.UseDeveloperExceptionPage();
             }
+            else
+            {
+                app.UseExceptionHandler("/Error");
+                app.UseHsts();
+            }
 
             app.UseHttpsRedirection();
 
@@ -98,6 +108,21 @@ namespace MISA.CucCuk.API
 
             app.UseRouting();
             app.UseCors("AllowOrigin");
+
+            // xử lý exception chung
+            app.UseExceptionHandler(a => a.Run(async context =>
+            {
+                var exceptionHandlerPathFeature = context.Features.Get<IExceptionHandlerPathFeature>();
+                var exception = exceptionHandlerPathFeature.Error;
+                var errorMsg = new ErrorMsg();
+                errorMsg.DevMsg = exception.Message;
+                errorMsg.UserMsg = UserMsg.DefaultUserMsg;
+                
+                context.Response.StatusCode = 500;
+                context.Response.ContentType = "application/json";
+                await context.Response.WriteAsync(JsonConvert.SerializeObject(errorMsg));
+                //await context.Response.WriteAsJsonAsync(new { error = exception.Message });
+            }));
 
             app.UseAuthorization();
 

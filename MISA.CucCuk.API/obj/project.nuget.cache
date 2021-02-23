@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "yNgQ6hYYBdTgXmbj0tbMdiH0yHwcnblhqlxCF9Dt2Wgmyv3+JEBlf8+F+j4y+9tVG1xPe7X/KR/dStOEUpPRSQ==",
+  "dgSpecHash": "VCmY/6pZdENNynZtVnlvlEA9JaO/eRAgpSikujmKWDNAUyMTjbWXa0Ddmf025Hjx/VoNwUH8OhBV/Dh5ZPDgpg==",
   "success": true,
   "projectFilePath": "C:\\Users\\lhphong\\Desktop\\WebCukCuk\\back-end\\MISA.CukCuk\\backend-cukcuk\\MISA.CucCuk.API\\MISA.CukCuk.API.csproj",
   "expectedPackageFiles": [
@@ -15,6 +15,7 @@
     "C:\\Users\\lhphong\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
     "C:\\Users\\lhphong\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
     "C:\\Users\\lhphong\\.nuget\\packages\\mysql.data\\8.0.23\\mysql.data.8.0.23.nupkg.sha512",
+    "C:\\Users\\lhphong\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
     "C:\\Users\\lhphong\\.nuget\\packages\\ssh.net\\2020.0.0-beta1\\ssh.net.2020.0.0-beta1.nupkg.sha512",
     "C:\\Users\\lhphong\\.nuget\\packages\\sshnet.security.cryptography\\1.3.0\\sshnet.security.cryptography.1.3.0.nupkg.sha512",
     "C:\\Users\\lhphong\\.nuget\\packages\\swashbuckle.aspnetcore\\6.0.7\\swashbuckle.aspnetcore.6.0.7.nupkg.sha512",
