@@ -16,3 +16,5 @@ C:\Users\lhphong\Desktop\WebCukCuk\back-end\MISA.CukCuk\backend-cukcuk\MISA.CukC
 C:\Users\lhphong\Desktop\WebCukCuk\back-end\MISA.CukCuk\backend-cukcuk\MISA.CukCuk.Common\obj\Debug\netcoreapp3.1\MISA.CukCuk.Common.csproj.CoreCompileInputs.cache
 C:\Users\lhphong\Desktop\WebCukCuk\back-end\MISA.CukCuk\backend-cukcuk\MISA.CukCuk.Common\obj\Debug\netcoreapp3.1\MISA.CukCuk.Common.dll
 C:\Users\lhphong\Desktop\WebCukCuk\back-end\MISA.CukCuk\backend-cukcuk\MISA.CukCuk.Common\obj\Debug\netcoreapp3.1\MISA.CukCuk.Common.pdb
+C:\Users\lhphong\Desktop\WebCukCuk\back-end\MISA.CukCuk\backend-cukcuk\MISA.CukCuk.Common\obj\Debug\netcoreapp3.1\MISA.CukCuk.Common.Properties.Resources.resources
+C:\Users\lhphong\Desktop\WebCukCuk\back-end\MISA.CukCuk\backend-cukcuk\MISA.CukCuk.Common\obj\Debug\netcoreapp3.1\MISA.CukCuk.Common.csproj.GenerateResource.cache

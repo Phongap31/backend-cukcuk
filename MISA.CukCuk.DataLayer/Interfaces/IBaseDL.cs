@@ -5,6 +5,7 @@ namespace MISA.CukCuk.DataLayer.Interfaces
 {
     public interface IBaseDL<T> where T: class
     {
+        #region Method
         /// <summary>
         /// Thực thi lấy toàn bộ dữ liệu trong bảng CSDL
         /// </summary>
@@ -51,5 +52,6 @@ namespace MISA.CukCuk.DataLayer.Interfaces
         /// <returns>bản ghi cần lấy</returns>
         ///created by lhphong 21.02.2021
         IEnumerable<T> GetByFieldName(string fieldName, string value);
+        #endregion
     }
 }

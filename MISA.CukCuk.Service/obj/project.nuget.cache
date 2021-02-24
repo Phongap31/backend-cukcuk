@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "XcqpX6NQuobArllsIYRnvYflQojsh6i2mLKj6ZzvcjL2dhbEaM6tvhmT2INo9u65FZoP6jA2+YSLJChpYyLkjw==",
+  "dgSpecHash": "jroy8ccxA8PHCkZumzAmZ4g41tqHtJYX8RSkBaojEAz/JT2ERJ0pSUTN9oxn9uD8dHcb+rvDX8m3Y0S92V9zYw==",
   "success": true,
   "projectFilePath": "C:\\Users\\lhphong\\Desktop\\WebCukCuk\\back-end\\MISA.CukCuk\\backend-cukcuk\\MISA.CukCuk.Service\\MISA.CukCuk.Service.csproj",
   "expectedPackageFiles": [
@@ -10,6 +10,8 @@
     "C:\\Users\\lhphong\\.nuget\\packages\\k4os.compression.lz4\\1.1.11\\k4os.compression.lz4.1.1.11.nupkg.sha512",
     "C:\\Users\\lhphong\\.nuget\\packages\\k4os.compression.lz4.streams\\1.1.11\\k4os.compression.lz4.streams.1.1.11.nupkg.sha512",
     "C:\\Users\\lhphong\\.nuget\\packages\\k4os.hash.xxhash\\1.0.6\\k4os.hash.xxhash.1.0.6.nupkg.sha512",
+    "C:\\Users\\lhphong\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\5.0.0\\microsoft.extensions.configuration.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\lhphong\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.0\\microsoft.extensions.primitives.5.0.0.nupkg.sha512",
     "C:\\Users\\lhphong\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\lhphong\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
     "C:\\Users\\lhphong\\.nuget\\packages\\mysql.data\\8.0.23\\mysql.data.8.0.23.nupkg.sha512",

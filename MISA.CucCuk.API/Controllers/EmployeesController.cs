@@ -16,12 +16,14 @@ namespace MISA.CukCuk.API.Controllers
     public class EmployeesController : ControllerBase
     {
         private readonly IEmployeeService _employeeService;
-
+        #region Constructor
         public EmployeesController(IEmployeeService employeeService)
         {
             _employeeService = employeeService;
         }
+        #endregion
 
+        #region Api
         // GET: api/v1/<EmployeesController>
         /// <summary>
         /// Lấy tất cả thông tin của nhân viên
@@ -31,7 +33,6 @@ namespace MISA.CukCuk.API.Controllers
         [HttpGet]
         public IActionResult Get()
         {
-
             var res = _employeeService.GetAll();
 
             return StatusCode(200, res.Data);
@@ -115,5 +116,6 @@ namespace MISA.CukCuk.API.Controllers
                 return StatusCode(400, res.Data);
             }
         }
+        #endregion
     }
 }

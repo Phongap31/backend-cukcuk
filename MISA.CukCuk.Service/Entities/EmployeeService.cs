@@ -11,12 +11,17 @@ namespace MISA.CukCuk.Service.Entities
 {
     public class EmployeeService: BaseService<Employee>, IEmployeeService
     {
-
+        /// <summary>
+        /// Lớp nghiệp vụ của nhân viên 
+        /// </summary>
+        /// <param name="baseDL"></param>
+        /// created by lhphong 20.02.2021
         public EmployeeService(IBaseDL<Employee> baseDL): base(baseDL)
         {
 
         }
 
+        #region Method
         public override ServiceResult CreateEntity(Employee employee)
         {
             var errorMsg = new ErrorMsg();
@@ -27,7 +32,7 @@ namespace MISA.CukCuk.Service.Entities
             //Check trùng mã nhân viên
             if (employeeExistsCode != null && employeeExistsCode.Any())
             {
-                errorMsg.UserMsg = "Mã nhân viên không được trùng, vui lòng liên hệ Misa giải quyết";
+                errorMsg.UserMsg = MISA.CukCuk.Common.Properties.Resources.errorDuplicateEmployeeCode;
                 serviceResult.Success = false;
                 serviceResult.Data = errorMsg;
                 return serviceResult;
@@ -37,7 +42,7 @@ namespace MISA.CukCuk.Service.Entities
             //Check trùng số CMND
             if (identityExitsCode != null && identityExitsCode.Any())
             {
-                errorMsg.UserMsg = "Số CMND không được trùng, vui lòng liên hệ Misa giải quyết";
+                errorMsg.UserMsg = MISA.CukCuk.Common.Properties.Resources.errorDublicateIdentityCode;
                 serviceResult.Success = false;
                 serviceResult.Data = errorMsg;
                 return serviceResult;
@@ -66,7 +71,7 @@ namespace MISA.CukCuk.Service.Entities
                 }
                 else
                 {
-                    errorMsg.UserMsg = "Mã nhân viên không được sửa đổi!";
+                    errorMsg.UserMsg = Common.Properties.Resources.errorEmployeeCodeFixed;
                     serviceResult.Success = false;
                     serviceResult.Data = errorMsg;
                     return serviceResult;
@@ -74,7 +79,7 @@ namespace MISA.CukCuk.Service.Entities
             }
             else
             {
-                errorMsg.UserMsg = "Không tìm thấy thông tin nhân viên cần sửa!";
+                errorMsg.UserMsg = Common.Properties.Resources.errorEmployeeNotFound;
                 serviceResult.Success = false;
                 serviceResult.Data = errorMsg;
                 return serviceResult;
@@ -90,13 +95,13 @@ namespace MISA.CukCuk.Service.Entities
             //Kiểm tra ID nhân viên có tồn tại hay không
             if (employee == null)
             {
-                errorMsg.UserMsg = "Không tìm thấy thông tin nhân viên cần xóa!";
+                errorMsg.UserMsg = Common.Properties.Resources.errorEmployeeNotFound;
                 serviceResult.Success = false;
                 serviceResult.Data = errorMsg;
                 return serviceResult;
             }
             return base.DeleteEntity(employeID);
         }
-
+        #endregion
     }
 }

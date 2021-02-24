@@ -8,15 +8,24 @@ using System.Text;
 
 namespace MISA.CukCuk.Service.Base
 {
+    /// <summary>
+    /// Class Service dùng chung
+    /// </summary>
+    /// <typeparam name="T">Kiểu T(dùng chung)</typeparam>
+    /// created by lhphong 20.02.2021
     public class BaseService<T> : IBaseService<T> where T : class
     {
         protected readonly IBaseDL<T> _baseDL;
 
+        #region Constructor
+        //Hàm khởi tạo
         public BaseService(IBaseDL<T> baseDL)
         {
             _baseDL = baseDL;
         }
+        #endregion
 
+        #region Method
         public virtual ServiceResult CreateEntity(T entity)
         {
             var serviceResult = new ServiceResult();
@@ -24,15 +33,16 @@ namespace MISA.CukCuk.Service.Base
 
             var response = _baseDL.CreateEntity(entity);
 
-            // them moi that bai
+            // thêm mới thất bại
             if (response <= 0)
             {
-                errorMsg.UserMsg = "Thêm bản ghi không thành công! Vùi lòng liên hệ Misa để giải quyết";
+                errorMsg.UserMsg = MISA.CukCuk.Common.Properties.Resources.errorAddEmployee;
                 serviceResult.Success = false;
                 serviceResult.Data = errorMsg;
                 return serviceResult;
             }
 
+            //thành công
             serviceResult.Data = response;
 
             return serviceResult;
@@ -43,12 +53,13 @@ namespace MISA.CukCuk.Service.Base
             var serviceResult = new ServiceResult();
             var errorMsg = new ErrorMsg();
 
+            //Biến nhận kết quả trả về
             var response = _baseDL.DeleteEntity(id);
 
             // xóa thất bại
             if (response <= 0)
             {
-                errorMsg.UserMsg = "Xóa bản ghi không thành công! Vùi lòng liên hệ Misa để giải quyết";
+                errorMsg.UserMsg = MISA.CukCuk.Common.Properties.Resources.errorDeleteEmployee;
                 serviceResult.Data = errorMsg;
                 serviceResult.Success = false;
                 return serviceResult;
@@ -64,17 +75,19 @@ namespace MISA.CukCuk.Service.Base
             var serviceResult = new ServiceResult();
             var errorMsg = new ErrorMsg();
 
+            //Biến nhận kết quả trả về
             var response = _baseDL.EditEntity(entity);
 
             // sửa thất bại
             if (response <= 0)
             {
-                errorMsg.UserMsg = "Sửa bản ghi không thành công! Vùi lòng liên hệ Misa để giải quyết";
+                errorMsg.UserMsg = MISA.CukCuk.Common.Properties.Resources.errorEditEmployee;
                 serviceResult.Data = errorMsg;
                 serviceResult.Success = false;
                 return serviceResult;
             }
 
+            // Sửa thành công
             serviceResult.Data = response;
 
             return serviceResult;
@@ -104,6 +117,6 @@ namespace MISA.CukCuk.Service.Base
 
             return serviceResult;
         }
-
+        #endregion
     }
 }

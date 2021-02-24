@@ -95,3 +95,5 @@ C:\Users\lhphong\Desktop\WebCukCuk\back-end\MISA.CukCuk\backend-cukcuk\MISA.CucC
 C:\Users\lhphong\Desktop\WebCukCuk\back-end\MISA.CukCuk\backend-cukcuk\MISA.CucCuk.API\obj\Debug\netcoreapp3.1\MISA.CukCuk.API.pdb
 C:\Users\lhphong\Desktop\WebCukCuk\back-end\MISA.CukCuk\backend-cukcuk\MISA.CucCuk.API\obj\Debug\netcoreapp3.1\MISA.CukCuk.API.genruntimeconfig.cache
 C:\Users\lhphong\Desktop\WebCukCuk\back-end\MISA.CukCuk\backend-cukcuk\MISA.CucCuk.API\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\lhphong\Desktop\WebCukCuk\back-end\MISA.CukCuk\backend-cukcuk\MISA.CucCuk.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\lhphong\Desktop\WebCukCuk\back-end\MISA.CukCuk\backend-cukcuk\MISA.CucCuk.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll

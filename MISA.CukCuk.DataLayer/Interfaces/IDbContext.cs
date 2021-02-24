@@ -5,11 +5,9 @@ using System.Text;
 
 namespace MISA.CukCuk.DataLayer.Interfaces
 {
-    /// <summary>
-    /// 
-    /// </summary>
     public interface IDbContext<T> where T : class
     {
+        #region Method
         /// <summary>
         /// Hàm thực thi store procedure (SELECT) trả về danh sách các bản ghi
         /// </summary>
@@ -60,5 +58,7 @@ namespace MISA.CukCuk.DataLayer.Interfaces
         /// <returns>số lượng bản ghi thay đổi trong csdl</returns>
         /// created by lhphong 21.02.2021
         int ExcuteSQLString(string queryString);
+
+        #endregion
     }
 }
